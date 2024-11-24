@@ -32,7 +32,9 @@ _________
 3. Check and correctly fill in lines where s3 bucket static key credentials are needed in docker-compose.yml file.
 4. Run ```docker compose -f docker-compose.yml up``` in cli in folder.
 
-[!TIP]
+---
+**IMPORTANT**
+
 If docker is deployed correctly you will have the following:
 - http://localhost:8080/ - airflow UI with airflow-airflow credentials
 - http://localhost:5050/ - mlflow UI
@@ -40,7 +42,8 @@ If docker is deployed correctly you will have the following:
 
 After successful deployment you will have /dags folder created in root. To use my py files and access them in Jupyter put neede py files to /dags folder.
 
+---
+
 
 # Credits
  - Authors of [MLOps course](https://stepik.org/course/181476/syllabus) on stepik platform
-
