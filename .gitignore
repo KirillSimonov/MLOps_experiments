@@ -2,7 +2,6 @@
 logs/
 jupyter-data/
 lecture_materials/
-artefacts/
 config/
 **/__pycache__
 **/.ipynb_checkpoints
