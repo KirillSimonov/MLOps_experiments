@@ -1,0 +1,12 @@
+#Ignore some specific folders
+logs/
+jupyter-data/
+lecture_materials/
+artefacts/
+config/
+**/__pycache__
+**/.ipynb_checkpoints
+plugins/
+
+#s3 credentials
+key.txt
